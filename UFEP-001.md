@@ -49,3 +49,22 @@ Execution
 Types will be checked from the first case on. All types should be tested for
 `UflType::is_valid_value`. When the first type matches, the children of its case
 will be included.
+
+Example
+-------
+
+Package children traversal with the type checking:
+```xml
+<VBox>
+    <ForEach src="#self.@children" item="child">
+        <Switch value="checked-object">
+            <Case type="package" into="p">
+                <TextBox text="#p.name + ' (package)'" />
+            </Case>
+            <Case type="class" into="c">
+                <TextBox text="#c.name + ' (class)'" />
+            </Case>
+        </Switch>
+    </ForEach>
+</VBox>
+```
