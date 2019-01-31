@@ -42,3 +42,13 @@ When the walk command is executed, a tree root node is assigned into the
 node variable. Walk command content is executed then. When the inner walk
 command is being executed, traversal continues on the given node. After
 a node traversal is done, execution continues when it stopped before.
+
+Node variable metadata
+----------------------
+
+TODO
+
+Example
+-------
+
+TODO

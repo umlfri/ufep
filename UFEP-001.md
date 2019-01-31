@@ -50,6 +50,8 @@ Types will be checked from the first case on. All types should be tested for
 `UflType::is_valid_value`. When the first type matches, the children of its case
 will be included.
 
+TODO: optional `into` attribute
+
 Example
 -------
 
