@@ -13,7 +13,7 @@ Rationale
 Current ufl switch component supports only simple value comparation. Sometimes,
 metamodel creator needs to check for value type instead.
 
-Walking the model element tree might be taken as an example of such situation.
+Traversing the model element tree might be taken as an example of such situation.
 Each element can have other type and as that there is no way to access an element
 data.
 

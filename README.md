@@ -9,6 +9,7 @@ Not implemented yet
 -------------------
 
 * [UFEP#1 The type switch](UFEP-001.md)
+* [UFEP#2 Tree traversal](UFEP-002.md)
 
 Implemented, but not released
 -----------------------------
