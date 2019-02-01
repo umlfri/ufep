@@ -19,7 +19,7 @@ Syntax
 ------
 
 ```xml
-<Walk into="tree-expression" node="variable-name">
+<Walk tree="tree-expression" node="variable-name">
     ...
     <Walk into="node-child-expression" />
     ...
@@ -27,7 +27,7 @@ Syntax
 ```
 
 `Walk` element is used in two different contexts. The first element represents
-the whole recursivly executed script part. The `into` attribute contains
+the whole recursivly executed script part. The `tree` attribute contains
 the tree that should be traversed. The `node` attribute contains name of the
 variable to assign each node to.
 
@@ -51,4 +51,14 @@ TODO
 Example
 -------
 
-TODO
+Traverse all descendant nodes and output its label and depth as a text row:
+```xml
+<VBox>
+    <Walk tree="#self.@tree" node="node">
+        <ForEach collection="@node.children" item="child">
+            <Text text="#child.@label + ' (' + @node.depth + ')'" />
+            <Walk into="#child" />
+        </ForEach>
+    </Walk>
+</VBox>
+```
