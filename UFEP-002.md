@@ -61,7 +61,7 @@ Traverse all descendant nodes and output its label and depth as a text row:
 <VBox>
     <Walk tree="#self.@tree" node="node">
         <ForEach collection="@node.children" item="child">
-            <Text text="#child.@label + ' (' + @node.depth + ')'" />
+            <TextBox text="#child.@label + ' (' + @node.depth + ')'" />
             <Walk into="#child" />
         </ForEach>
     </Walk>
