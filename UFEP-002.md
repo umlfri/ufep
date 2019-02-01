@@ -1,4 +1,4 @@
-UFEP#2 Tree traversal
+UFEP#2 Tree Traversal
 =====================
 
 Abstract
@@ -43,7 +43,7 @@ node variable. Walk command content is executed then. When the inner walk
 command is being executed, traversal continues on the given node. After
 a node traversal is done, execution continues when it stopped before.
 
-Node variable metadata
+Node Variable Metadata
 ----------------------
 
 A few metadata has to be defined for a node variable.

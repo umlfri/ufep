@@ -1,4 +1,4 @@
-UFEP#1 The type switch
+UFEP#1 The Type Switch
 ======================
 
 Abstract
@@ -17,7 +17,7 @@ Traversing the model element tree might be taken as an example of such situation
 Each element can have other type and as that there is no way to access an element
 data.
 
-Syntax proposal
+Syntax Proposal
 ---------------
 
 ```xml
