@@ -10,6 +10,7 @@ Not implemented yet
 
 * [UFEP#1 The Type Switch](UFEP-001.md)
 * [UFEP#2 Tree Traversal](UFEP-002.md)
+* [UFEP#3 Enhanced Text Components](UFEP-003.md)
 
 Implemented, but not released
 -----------------------------
