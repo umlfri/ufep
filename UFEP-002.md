@@ -46,7 +46,12 @@ a node traversal is done, execution continues when it stopped before.
 Node variable metadata
 ----------------------
 
-TODO
+A few metadata has to be defined for a node variable.
+
+| Name     | Type                    | Description                |
+|----------|-------------------------|----------------------------|
+| children | iterable of _node type_ | The left child of the node |
+| depth    | int                     | Current recursion depth    | 
 
 Example
 -------
