@@ -1,6 +1,8 @@
 UFEP#4 The extended for-each
 ============================
 
+**Status:** Proposed
+
 Abstract
 --------
 

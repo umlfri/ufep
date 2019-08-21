@@ -1,6 +1,8 @@
 UFEP#1 The Type Switch
 ======================
 
+**Status:** Proposed
+
 Abstract
 --------
 

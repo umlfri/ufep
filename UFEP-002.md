@@ -1,6 +1,8 @@
 UFEP#2 Tree Traversal
 =====================
 
+**Status:** Proposed
+
 Abstract
 --------
 

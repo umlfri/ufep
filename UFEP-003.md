@@ -1,6 +1,8 @@
 UFEP#3 Enhanced Text Components
 ===============================
 
+**Status:** Proposed
+
 Abstract
 --------
 
